@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+  }
+  
+  body {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  header,
+  footer {
+	flex: none;
+  }
+  
+  main {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	flex: auto;
+  }
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: "oswald", sans-serif;
+	background-color: #f5f5f5;
+	min-height: 100vh;
+	margin: 0;
+}
+.container {
+	display: flex;
+	flex-direction: column;	
+	min-height: 100vh;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.staff-member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.staff-member img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.staff-member h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.staff-member p {
+	text-align: center;
+	max-width: 400px;
+	line-height: 1.5;
+}
+
+.logo
+{
+	cursor: pointer;
+	max-width: 40px;
+max-height: 400px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+  }
+li, ul, a {
+	font-family: "oswald", 'Courier New', Courier, monospace;
+	text-decoration: none;
+	color: #fff;	
+  }
+.barra{
+	padding-top: 10px;
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.barra li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.barra li a {
+	transition: all 0.3s ease 0s;
+	}
+
+.barra li a:hover {
+	font-size: 110%;
+	color: rgb(197, 173, 141);
+	transition: all 0.3s ease 0s;	
+	}
+.contacto {
+	padding: 9px 25px;
+	background-color: #807e7e;
+	border: none;
+	border-radius: 20px;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;	
+
+}
+
+.contacto:hover{
+	padding: 12px 28px;
+	background-color: #464545;
+}
+.main-section{
+	background-image: url(../imagenes/KimandJim.webp);
+	background-size: cover;
+	padding-top: 400px;
+	padding-bottom: 400px;
+	
+}
+.inicio{
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	color: antiquewhite;
+	font-family: "oswald", 'Courier New', Courier, monospace;
+	
+}
+
+
+.derechos{
+	display: flex;
+}
+.anciano {
+	font-size: 15px;
+	width: 50%;
+	height: 100vh;
+	background-color:#535353;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.bancario {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	width: 50%;
+	color: #535353;
+	height: 100vh;
+	
+}
+.bancImg {
+height: fit-content;
+}
+.eldLaw{
+  height: 40%;
+  padding: 0 10px 10px 0;
+  box-sizing: border-box;
+}
+
+.testimoniales {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	font-size: 30px;
+	margin-bottom: 2em;
+  }
+  
+.testimoniales img {
+	width: 160px;
+	height: 160px;
+	border-radius: 20%;
+	margin-right: 1em;	
+	object-fit: cover;
+  }
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+  }
+.testimoniales h3 {
+	display: flex;
+	flex-direction: column;
+  }
+ 
+  footer{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 30px;
+	bottom: 0;
+	font-size: 20px;
+	text-align: center;
+	font-family: "oswald", 'Courier New', Courier, monospace;
+	background-color: #333;
+	width:100% ;
+	color: #fff;
+  }
